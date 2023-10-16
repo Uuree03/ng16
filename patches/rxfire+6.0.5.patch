@@ -1,0 +1,10 @@
+diff --git a/node_modules/rxfire/firestore/lite/interfaces.d.ts b/node_modules/rxfire/firestore/lite/interfaces.d.ts
+index dfe841c..f15ec82 100644
+--- a/node_modules/rxfire/firestore/lite/interfaces.d.ts
++++ b/node_modules/rxfire/firestore/lite/interfaces.d.ts
+@@ -7,4 +7,4 @@ export type QuerySnapshot<T> = lite.QuerySnapshot<T>;
+ export type QueryDocumentSnapshot<T> = lite.QueryDocumentSnapshot<T>;
+ export type CountSnapshot = lite.AggregateQuerySnapshot<{
+     count: lite.AggregateField<number>;
+-}, any, DocumentData>;
++}>;
